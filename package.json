@@ -10,7 +10,7 @@
     "tests:e2e": "playwright test --config=e2e.config.ts --project=Chromium --reporter=list",
     "tests:api": "playwright test --config=api.config.ts --project=Chromium --reporter=list"
   },
-  "author": "allaaismail",
+  "author": "allaamuhammed",
   "license": "ISC",
   "dependencies": {
     "@playwright/test": "^1.25.2",
