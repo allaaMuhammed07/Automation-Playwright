@@ -8,7 +8,7 @@ let validUserPassword = "cityslicka"
 let invalidUserEmail = "peter@klaven"
 let errorMessage = "Missing password"
 
-test.describe.only("POST Request Test", ()=>{
+test.describe("POST Request Test", ()=>{
     test("POST Request - Create new user",async ({request}) => {
         const response = await request.post(`${baseURL}users`,{
             data:{
