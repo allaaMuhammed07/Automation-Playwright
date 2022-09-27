@@ -4,7 +4,7 @@ const baseURL: string = "https://reqres.in/api/"
 let firstName = "morpheus"
 let job = "zion resident"
 
-test.only("PUT Request - Update user",async ({request}) => {
+test("PUT Request - Update user",async ({request}) => {
     const response = await request.put(`${baseURL}users/2`,{
         data:{
             "name": firstName,
