@@ -2,7 +2,7 @@ import {test, expect} from '@playwright/test'
 import {LoginPage} from '/Users/allaaismail/Downloads/Automation-Playwright/page-objects/LoginPage'
 import {HomePage} from '/Users/allaaismail/Downloads/Automation-Playwright/page-objects/HomePage'
 
-test.describe.only('Login / Logout Flow', ()=>{
+test.describe('Login / Logout Flow', ()=>{
     let homePage: HomePage
     let loginPage: LoginPage
 
